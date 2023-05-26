@@ -1,0 +1,351 @@
+.sectionPrincipal{
+    width: 100%;
+    height: 800px;
+    background-image: url(../assets/img/modelo-jordan-4-rojas-parte-trasera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer1{
+    background-color: dimgray;
+}
+header{
+    background-color: dimgray;
+}
+.navbar li{
+    display: inline;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.nav-footer{
+    justify-content: left;
+    flex-direction: column;
+    padding: 0px;
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    left: 483px;
+}
+.h2-footer{
+    display: flex;
+    position: relative;
+    top: 30px;
+    bottom: 5px;
+    left: 500px;
+}
+.h3-footer{
+    display: flex;
+    position: relative;
+    top: 2px;
+    bottom: 4px;
+    left: 800px;
+}
+a{
+    text-decoration: none;
+}
+.navbar-h3-nav-footer{
+    display: flex;
+    position: relative;
+    top:-250px;
+    bottom: 23px;
+    left: 800px;
+    flex-direction: column;
+    list-style: none;
+    padding: 4px;
+}
+.navbar-h3-nav-footer li{
+    padding-bottom: 20px;
+}
+.sectioonPrincipal>div{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/air-jordan-1-retro-high-og.jpg);
+    background-repeat: no-repeat;
+}
+.h2Footer2{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+.headerColor{
+    background-color: black;
+    color: aliceblue;
+}
+.nav-footer2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-footer2 li{
+    padding: 20px;
+}
+.sectionSecundaria{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/jordan-true-blue-and-copper-1.jpg);
+    background-repeat: no-repeat;
+}
+.sectionTerciaria{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/dunk-low-mujer-blue-suede-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 550px;
+    top: -400px;
+}
+.sectionCuarta{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/air-max-95-white-and-pure-premium-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 1100px;
+    top: -800px;
+}
+.sectionQuinta{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/air-force-1-mid-x-off-white\ -pine-green-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -750px;
+}
+.sectionSexta{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/air-max-95-triple-black-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 550px;
+    top: -1150px;
+}
+.sectionSeptima{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/air-jordan-1-high-para-mujer-washed-pink-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 1100px;
+    top: -1550px;
+}
+.sectionOctava{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/the-drop-off-nike-kwondo-1-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1580px;
+    left: 20px;
+}
+.sectionNovena{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/street-snkrs-worn-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1981px;
+    left: 500px;
+}
+.sectionDecima{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/the-drop-off-nike-sb-x-air-jordan-4-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -2382px;
+    left: 1000px;
+}
+.imgNewBalance>div{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/the-550-nb-1.jpg);
+    background-repeat: no-repeat;
+}
+.headerNewBalance{
+    background-color: black;
+    color: aliceblue;
+}
+.newModel1{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/new-balance-550-perfil-1.jpg);
+    background-repeat: no-repeat;
+}
+.newModel2{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/new-balance-57-40-perfil-mujer-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 550px;
+    top: -400px;
+}
+.newModel3{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/new-balance-327-perfil-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 1100px;
+    top: -800px;
+}
+.newModel4{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/237-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -750px;
+}
+.newModel5{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/xc-72-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 550px;
+    top: -1150px;
+}
+.newModel6{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/new-balance-515v3-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 1100px;
+    top: -1550px;
+}
+.newBalance5740{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/57-40-new-balance-1-1-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1550px;
+}
+.newBalance327{
+    width: 1000px;
+    height: 402px;
+    background-image: url(../assets/img/327-new-balance-1-1-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1950px;
+    left: 900px;
+}
+.newBalanceTest{
+    width: 1600px;
+    height: 402px;
+    background-image: url(../assets/img/new-balance-test-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1950px;
+}
+.headerClass{
+    background-color: black;
+    color: aliceblue;
+}
+.imgDestacados{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/jordan-1-elevate-high.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -20px;
+}
+.imgJordan1{
+    width: 1000px;
+    height: 900px;
+    background-image: url(../assets/img/air-jordan-collection-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+.imgJordan2{
+    width: 1000px;
+    height: 900px;
+    background-image: url(../assets/img/air-jordan-2-white-and-cement-grey-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+.headerClass2{
+    background-color: black;
+    color: aliceblue;
+}
+.imgNike{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/nike-sb.jpg);
+    background-repeat: no-repeat;
+}
+.zoomJanoski{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/zoom-janoski\ og-1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -200px;
+    left: 800px;
+}
+.flyStreetwear{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/nike-sb-dunk-low-fly-streetwear-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -700px;
+}
+.pawnSwish{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/nike-sb-dunk-high-panwshop-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1100px;
+    left: 800px;
+}
+.nikeEbay{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/nike-sb-dunk-low-ebay-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1400px;
+}
+.nikeConcepts{
+    width: 1600px;
+    height: 900px;
+    background-image: url(../assets/img/nike-sb-dunk-low-concepts-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -1800px;
+    left: 800px;
+}
