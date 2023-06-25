@@ -1,7 +1,9 @@
+@import "../utilities/mixins";
+
 .grid-container{
     display: grid;
     grid-template-rows: repeat(2, 310px);
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(2, 200px);
     column-gap: 20px;
     justify-content: center;
 }
@@ -24,4 +26,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 25px;
+}
+.preview-zapas{
+    @use grid(repeat(2,1fr), repeat(3,1fr));
+    gap: 20px;
 }

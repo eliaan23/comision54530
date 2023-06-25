@@ -12,45 +12,15 @@
     display: flex;
     justify-content: center;
 }
-.zapa1{
-    position: relative;
-    top: 5px;
-}
-.zapa2{
-    position: relative;
-    left: 100px;
-    top: 5px;
-}
-.zapa3{
-    position: relative;
-    left: 100px;
-    top: 5px;
-}
-.zapa5{
-    position: relative;
-    left: 100px;
-}
-.zapa6{
-    position: relative;
-    left: 100px;
-}
-.zapa7{
-    position: relative;
-    left: 30px;
-}
-.zapa8{
-    position: relative;
-    left: 100px;
-}
-.zapa9{
-    position: relative;
-    left: 100px;
-}
+
 .foooter {
     display: flex;
     justify-content: space-around;
     height: 150px;
     margin-top: 20px;
+}
+.container-footer{
+    display: flex;
 }
 .container-footer *{
     color: white;

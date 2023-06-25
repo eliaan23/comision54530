@@ -7,7 +7,7 @@ header {
   background-color: dimgray; }
 
 .header-new-balance {
-  display: grid; }
+  display: flex; }
 
 .header-new-balance input {
   line-height: 40px;
@@ -131,7 +131,7 @@ navbar-3 * {
 .grid-container {
   display: grid;
   grid-template-rows: repeat(2, 310px);
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(2, 200px);
   column-gap: 20px;
   justify-content: center; }
 
@@ -154,6 +154,10 @@ navbar-3 * {
   grid-template-columns: repeat(4, 1fr);
   gap: 25px; }
 
+.preview-zapas {
+  @use grid(repeat(2,1fr), repeat(3,1fr));
+  gap: 20px; }
+
 .main {
   width: 100%;
   height: 100vh;
@@ -174,25 +178,11 @@ navbar-3 * {
   top: -60px;
   left: 30px; }
 
-.preview-zapas img {
-  gap: 50px; }
-
-.main-3 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../assets/img/the-550-nb-1.jpg);
-  background-repeat: no-repeat;
-  position: relative; }
-
-.img-n {
-  font-weight: 900px;
-  text-decoration: none; }
-
-.main-n .eslogan img {
-  grid-area: new-balance-550-3;
-  width: 100%;
-  height: 365px;
-  object-fit: cover; }
+.main-n {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  right: 60px; }
 
 .body-nike {
   margin: 0 auto;
@@ -505,45 +495,14 @@ main {
   display: flex;
   justify-content: center; }
 
-.zapa1 {
-  position: relative;
-  top: 5px; }
-
-.zapa2 {
-  position: relative;
-  left: 100px;
-  top: 5px; }
-
-.zapa3 {
-  position: relative;
-  left: 100px;
-  top: 5px; }
-
-.zapa5 {
-  position: relative;
-  left: 100px; }
-
-.zapa6 {
-  position: relative;
-  left: 100px; }
-
-.zapa7 {
-  position: relative;
-  left: 30px; }
-
-.zapa8 {
-  position: relative;
-  left: 100px; }
-
-.zapa9 {
-  position: relative;
-  left: 100px; }
-
 .foooter {
   display: flex;
   justify-content: space-around;
   height: 150px;
   margin-top: 20px; }
+
+.container-footer {
+  display: flex; }
 
 .container-footer * {
   color: white; }
@@ -602,10 +561,17 @@ pie-pagina .grupo-1 .box p {
     max-width: 80%; } }
 
 @media (max-width: 768px) {
-  .footer-2 {
-    width: 100vh; }
-  .main-2 {
-    width: 100vh; } }
+  .container-footer {
+    width: 100%; }
+  .main-n {
+    width: 100;
+    justify-content: inherit; }
+  .header-new-balance {
+    display: flex;
+    width: 100%; }
+  .header-new-balance input {
+    display: flex;
+    width: 100%; } }
 
 @media (max-width: 490px) {
   .pie-pagina {

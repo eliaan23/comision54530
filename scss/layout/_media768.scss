@@ -1,8 +1,18 @@
 @media (max-width:768px){
-    .footer-2{
-        width: 100vh;
+    .container-footer{
+    width: 100%;
     }
-    .main-2{
-        width: 100vh;
+    .main-n{
+        width: 100;
+        justify-content: inherit;
+    }
+    .header-new-balance{
+        display: flex;
+        width: 100%;
+    
+    }
+    .header-new-balance input {
+        display: flex;
+        width: 100%;
     }
 }
